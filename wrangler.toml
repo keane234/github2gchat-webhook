@@ -1,3 +1,9 @@
 name = "github2gchat-webhook"
-main = "src/index.js"
-compatibility_date = "2022-07-18"
+workers_dev = true
+account_id = "cbfa45e77e3a969754802b898a05bf57"
+type = "webpack"
+webpack_config = "node_modules/flareact/webpack"
+compatibility_date = "2021-07-23"
+
+[triggers]
+crons = ["* * * * *"]
