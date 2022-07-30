@@ -9,4 +9,5 @@ compatibility_date = "2021-07-23"
 crons = ["* * * * *"]
 
 [site]
+bucket = "out"
 entry-point = "./"
